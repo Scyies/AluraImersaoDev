@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Marcador de Pontos - Truco</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <h1>
+        Marcador de Pontos
+    </h1>
+<section class = "marcador">
+    <div id = "nomeDosTimes">
+        <label class="text"  placeholder="Nós" id = "nos">Nós </label>
+        <label class="text" placeholder="Eles" id = "eles"> Eles </label>
+    </div>
+    <div id = "pontuacao">
+        <div id = "pontosNos" value = 0>0</div>
+        <div id = "pontosEles" value = 0>0</div>
+    </div>
+    <div id="botoes">
+        <div id = "botaoTirarPontos">
+            <button onclick="diminuirPontosNos()" id = "botaoTirarPontosNos">-</button>
+            <button onclick="diminuirPontosEles()" id = "botaoTirarPontosEles">-</button>
+        </div>
+        <div id = "botaoAumentarPontos">
+            <input type="image" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Naipe_paus.png" onclick="aumentarPontosNos()" id = "botaoAumentarPontosNos"></input>
+            <input type="image" src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Naipe_espadas.png" onclick="aumentarPontosEles()" id = "botaoAumentarPontosEles"></input>
+        </div>
+    </div>
+    <div id = "truco" onclick="truco()">
+        <img src = "https://upload.wikimedia.org/wikipedia/commons/a/ab/Naipe_ouros.png">
+        <button id = "trucobtn" value = 0> Truco </button>
+        <img src = "https://upload.wikimedia.org/wikipedia/commons/a/ab/Naipe_ouros.png">
+    </div>
+</section>
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

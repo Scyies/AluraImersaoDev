@@ -1,0 +1,140 @@
+body {
+    background: url("https://wallpaperaccess.com/full/1765665.jpg");
+    background-position: fit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+
+}
+h1 {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.marcador {
+    background: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur (10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 5px;
+    padding: 50px;
+    align-items: center;
+}
+#nomeDosTimes {
+    background: #333;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-around;
+    color: #fff;
+    overflow: hidden;
+    height: 125px;
+}
+#nomeDosTimes #eles, #nomeDosTimes #nos {
+    margin: 50px;
+}
+#pontuacao {
+    background: #333;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    color:#fff;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-around;
+    height: 125px;
+    width: 230px;
+}
+#pontosNos, #pontosEles {
+    padding: 50px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#botaoTirarPontos {
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-around;
+}
+#botaoAumentarPontos{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-around;
+}
+#truco {
+    background-color: #333;
+    border-radius: 5px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+#truco img {
+    height: 20px;
+    width: auto;
+    justify-content: center;
+}
+button {
+    border: none;
+    box-shadow: none;
+    padding: 10px 25px;
+    background: #333;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+}
+#truco {
+    cursor: pointer;
+}
+#truco:hover {
+    background: rgb(139, 139, 139);
+    color: #000;
+}
+#trucobtn {
+    background-color: transparent;
+    cursor: pointer;
+}
+#botaoTirarPontos button{
+    margin-top: 20px;
+}
+#botaoTirarPontos button:hover{
+    background: rgb(139, 139, 139);
+    color: #000;
+}
+#botaoAumentarPontosNos {
+    height: 100px;
+    width: 100px;
+    opacity: 0.7;
+}
+#botaoAumentarPontosNos:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+#botaoAumentarPontosEles {
+    height: 100px;
+    width: 100px;
+    opacity: 0.7;
+}
+#botaoAumentarPontosEles:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
